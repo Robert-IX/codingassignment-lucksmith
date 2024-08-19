@@ -4,9 +4,9 @@
 This is a Java Spring Boot application that reads Drools rules from an XLS file and returns permissions via a REST API based on those rules.
 
 ## Prerequisites
-- Java 8
-- Maven
-- Docker
+- Java 8 (getestet mit `1.8.0_202`)
+- Maven 3.8.6
+- Docker 24.0.7
 
 ## Running the Application
 1. Clone the project: `git clone https://github.com/Robert-IX/codingassignment-lucksmith.git`
