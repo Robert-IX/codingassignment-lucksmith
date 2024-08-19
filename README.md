@@ -19,12 +19,12 @@ This is a Java Spring Boot application that reads Drools rules from an XLS file 
 2. Start the Docker container: `docker run -p 1001:1001 codingassignment-lucksmith`
 
 ## REST API Endpoint
-- **POST** `/api/rules/execute`
+- **POST** `http://localhost:1001/api/rules/execute`
     - Example Request:
       ```json
       {
         "name":"Order-01",
-        "cardType":"A",
+        "cardType":"B",
         "price":100000
       }
       ```
@@ -32,8 +32,8 @@ This is a Java Spring Boot application that reads Drools rules from an XLS file 
       ```json
       {
         "name": "Order-01",
-        "cardType": "A",
-        "discount": 10,
+        "cardType": "B",
+        "discount": 2000,
         "price": 100000
       }
       ```
