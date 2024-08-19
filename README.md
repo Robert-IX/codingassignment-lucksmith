@@ -9,7 +9,7 @@ This is a Java Spring Boot application that reads Drools rules from an XLS file 
 - Docker
 
 ## Running the Application
-1. Clone the project: `git clone <repository-url>`
+1. Clone the project: `git clone https://github.com/Robert-IX/codingassignment-lucksmith.git`
 2. Navigate to the project directory: `cd codingassignment-lucksmith`
 3. Run Maven build: `mvn clean package`
 4. Start the application: `java -jar target/codingassignment-lucksmith-0.0.1-SNAPSHOT.jar`
