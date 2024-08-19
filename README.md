@@ -16,7 +16,7 @@ This is a Java Spring Boot application that reads Drools rules from an XLS file 
 
 ## Building and Running the Docker Container
 1. Build the Docker image: `docker build -t codingassignment-lucksmith .`
-2. Start the Docker container: `docker run -p 8080:8080 codingassignment-lucksmith`
+2. Start the Docker container: `docker run -p 1001:1001 codingassignment-lucksmith`
 
 ## REST API Endpoint
 - **POST** `/api/rules/execute`
